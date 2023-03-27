@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { STRING } = require('sequelize');
 
 const userSchema = new mongoose.Schema({
   name: {
